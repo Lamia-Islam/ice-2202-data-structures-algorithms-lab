@@ -1,0 +1,22 @@
+== Linear and tree structures ==
+Linked list [5, 4, 3, 2, 1] reversed -> [1, 2, 3, 4, 5]
+BST inorder: [20, 30, 35, 40, 50, 60, 70, 80], height 4
+Balanced brackets: '{[()]}' -> True, '{[(])}' -> False
+Postfix '5 1 2 + 4 * + 3 -' = 14
+
+== Sorting and searching ==
+bubble     correct: True
+insertion  correct: True
+merge      correct: True
+quick      correct: True
+heap       correct: True
+Binary search for 219 in sorted list: index 7 (bisect says 7)
+Time (ms) at n=1600: bubble 129.8, insertion 61.2, merge 2.7, quick 2.3, heap 0.4
+
+== Greedy, dynamic programming, backtracking ==
+Activity selection picks 4 activities: [(1, 4), (5, 7), (8, 11), (12, 16)]
+Fractional knapsack (capacity 50) = 240.0
+0/1 knapsack (capacity 50) = 220
+LCS('AGGTAB','GXTXAYB') = 4
+Edit distance('kitten','sitting') = 3
+N-Queens solutions: n=4: 2, n=5: 10, n=6: 4, n=7: 40, n=8: 92
